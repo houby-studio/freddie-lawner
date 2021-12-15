@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "freddielawnermod",
+  "version": "${version}",
+
+  "name": "Freddie Lawner Mod",
+  "description": "Minecraft mod about lawn mowing and gardening.",
+  "authors": [
+    "Megastary"
+  ],
+  "contact": {
+    "homepage": "https://houby-studio.eu/",
+    "sources": "https://github.com/houby-studio/freddie-lawner"
+  },
+
+  "license": "MIT",
+  "icon": "assets/freddielawnermod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.houbystudio.freddielawnermod.FreddieLawnerMod"
+    ]
+  },
+  "mixins": [
+    "freddielawnermod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
