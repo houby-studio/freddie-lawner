@@ -1,0 +1,14 @@
+{
+  "item.freddielawnermod.wheel_of_fortune": "Wheel of Fortune",
+  "item.freddielawnermod.wheel_of_fortune_shards": "Wheel of Fortune Shards",
+  "item.freddielawnermod.dog_food": "Dog Food",
+  "item.freddielawnermod.gasoline_canister": "Gasoline Canister",
+  "block.freddielawnermod.wheel_of_fortune_block": "Petrified Wheel of Fortune Shards",
+  "block.freddielawnermod.stall_block": "Freddie Lawner's Stall",
+  "itemGroup.freddielawnermod.freddielawner": "Freddie Lawner Mod",
+  "message.freddielawnermod.wheel_of_fortune_roll_message": "You have spun Wheel of Fortune and won %s",
+  "message.freddielawnermod.stall_use_message": "Welcome to our stall %s! How may i serve you?",
+  "tooltip.freddielawnermod.stall_block": "Hold §eSHIFT§r for more Information.",
+  "tooltip.freddielawnermod.stall_block_shift_1": "Place stall in the world to call Freddie Lawner,",
+  "tooltip.freddielawnermod.stall_block_shift_2": "who will happily sell you some of his awesome products!"
+}

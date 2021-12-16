@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "freddielawnermod:wheel_of_fortune_block"
+  },
+  "result": "freddielawnermod:wheel_of_fortune_shards",
+  "experience": 0.50,
+  "cookingtime": 200
+}
