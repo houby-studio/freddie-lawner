@@ -1,5 +1,6 @@
 package eu.houbystudio.freddielawnermod.block.custom;
 
+import eu.houbystudio.freddielawnermod.FreddieLawnerMod;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.client.gui.screen.Screen;
@@ -31,7 +32,7 @@ public class StallBlock extends Block {
         if (world.isClient()) {
             // Client code
             if (hand == Hand.MAIN_HAND) {
-                player.sendMessage(new TranslatableText("message.freddielawnermod.stall_use_message", player.getDisplayName()), false);
+                player.sendMessage(new TranslatableText("message." + FreddieLawnerMod.MOD_ID + ".stall_use_message", player.getDisplayName()), false);
             }
         } else {
             // Server code
@@ -48,10 +49,10 @@ public class StallBlock extends Block {
     public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
 
         if (Screen.hasShiftDown()) {
-            tooltip.add(new TranslatableText("tooltip.freddielawnermod.stall_block_shift_1"));
-            tooltip.add(new TranslatableText("tooltip.freddielawnermod.stall_block_shift_2"));
+            tooltip.add(new TranslatableText("tooltip." + FreddieLawnerMod.MOD_ID + ".stall_block_shift_1"));
+            tooltip.add(new TranslatableText("tooltip." + FreddieLawnerMod.MOD_ID + ".stall_block_shift_2"));
         } else {
-            tooltip.add(new TranslatableText("tooltip.freddielawnermod.stall_block"));
+            tooltip.add(new TranslatableText("tooltip." + FreddieLawnerMod.MOD_ID + ".stall_block"));
         }
 
         super.appendTooltip(stack, world, tooltip, options);
